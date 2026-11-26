@@ -1,0 +1,27 @@
+# openai/math f570285, Lean (version 4.34.1, arm64-apple-darwin24.6.0, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release), Darwin arm64, 2026-11-26T05:14:06Z
+✔ [8988/8993] Built OAI.Analysis.PlaneSpectrum.RadialEnergy (16s)
+✔ [8989/8993] Built OAI.Geometry.PlaneColoring.FullApproximation (6.5s)
+✔ [8990/8993] Built OAI.Geometry.PlaneColoring.Mesh (6.1s)
+✔ [8991/8993] Built OAI.Analysis.PlaneSpectrum.Ergodicity (11s)
+✔ [8992/8993] Built OAI.Geometry.PlaneColoring.BorelTransfer (7.6s)
+✔ [8993/8993] Built OAI.Geometry.PlaneColoring.Five (5.4s)
+Build completed successfully (8993 jobs).
+      232.22 real       558.73 user       288.46 sys
+          6921928704  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+            32611886  page reclaims
+              367209  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+              129679  voluntary context switches
+             6938524  involuntary context switches
+        215770681397  instructions retired
+        104218999507  cycles elapsed
+          1729342784  peak memory footprint
+exit=0

@@ -1,0 +1,22 @@
+# lake env lean axioms_check.lean (openai/math f570285, Lean (version 4.34.1, Darwin arm64, 2026-11-26T05:26:48Z)
+warning: belyi: repository '<worktree of openai/math@f57028540>/lean/.lake/packages/belyi' has local changes
+warning: formal-schemes: repository '<worktree of openai/math@f57028540>/lean/.lake/packages/formal-schemes' has local changes
+warning: elliptic-curves: repository '<worktree of openai/math@f57028540>/lean/.lake/packages/elliptic-curves' has local changes
+warning: tempered-fundamental-groups: repository '<worktree of openai/math@f57028540>/lean/.lake/packages/tempered-fundamental-groups' has local changes
+warning: oka: repository '<worktree of openai/math@f57028540>/lean/.lake/packages/oka' has local changes
+warning: orbicurve-cores: repository '<worktree of openai/math@f57028540>/lean/.lake/packages/orbicurve-cores' has local changes
+warning: pi1: repository '<worktree of openai/math@f57028540>/lean/.lake/packages/pi1' has local changes
+warning: heights: repository '<worktree of openai/math@f57028540>/lean/.lake/packages/heights' has local changes
+warning: genl: repository '<worktree of openai/math@f57028540>/lean/.lake/packages/genl' has local changes
+warning: tate-curves-theta: repository '<worktree of openai/math@f57028540>/lean/.lake/packages/tate-curves-theta' has local changes
+warning: iut: repository '<worktree of openai/math@f57028540>/lean/.lake/packages/iut' has local changes
+OAI.EuclideanFiveColor.ProperColoring : (k : ℕ) → (ℂ → Fin k) → Prop
+def OAI.EuclideanFiveColor.ProperColoring : (k : ℕ) → (ℂ → Fin k) → Prop :=
+fun k c => ∀ (x y : ℂ), ‖x - y‖ = 1 → c x ≠ c y
+OAI.EuclideanFiveColor.no_proper_five_coloring : ¬∃ c, OAI.EuclideanFiveColor.ProperColoring 5 c
+'OAI.EuclideanFiveColor.no_proper_five_coloring' depends on axioms: [propext, Classical.choice, Quot.sound]
+OAI.BorsukNine.euclidean_nine_counterexample : ∃ X,
+  IsCompact X ∧
+    Metric.diam X = √2 ∧ ¬∃ C, (∀ (i : Fin 10), C i ⊆ X) ∧ X ⊆ ⋃ i, C i ∧ ∀ (i : Fin 10), Metric.diam (C i) < √2
+'OAI.BorsukNine.euclidean_nine_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+exit=0

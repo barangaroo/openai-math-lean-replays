@@ -1,0 +1,8 @@
+# openai/math f570285, Lean (version 4.34.1, arm64-apple-darwin24.6.0, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release), Darwin arm64, 2026-11-26T05:18:15Z
+✔ [9189/9192] Built OAI.Geometry.Borsuk.FiniteCases.Cases144 (5.1s)
+✔ [9190/9192] Built OAI.Geometry.Borsuk.FiniteCases.Cases145 (4.9s)
+✔ [9191/9192] Built OAI.Geometry.Borsuk.Counterexample (4.7s)
+✔ [9192/9192] Built OAI.Geometry.Borsuk.Main (5.6s)
+Build completed successfully (9192 jobs).
+      498.50 real      1112.77 user      1244.26 sys
+exit=0
